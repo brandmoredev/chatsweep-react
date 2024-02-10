@@ -37,7 +37,7 @@ const Chats = () => {
       headers: {
         "user-name": user.email,
         "user-secret": user.uid,
-        "PRIVATE-KEY": "c4ac2513-ac03-4b22-926a-c167dd752652"
+        "PRIVATE-KEY": process.env.REACT_APP_CHAT_ENGINE_KEY
       },
     }).then(() => {
       setLoading(false);
