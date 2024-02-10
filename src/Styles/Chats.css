@@ -6,9 +6,9 @@
 .nav-bar {
   display: flex;
   justify-content: space-between;
-  background-color: #1877f2;
+  background-color: #726dfe;
   padding: 16px;
-  color: white;
+  color: white
 }
 
 .logo-tab {

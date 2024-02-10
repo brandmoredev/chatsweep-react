@@ -1,4 +1,5 @@
 import "../Styles/Chats.css";
+import "../Styles/ChatEngine.css"
 import { BsChatLeftDots } from "react-icons/bs";
 import { useNavigate } from "react-router-dom";
 import { ChatEngine } from "react-chat-engine";
