@@ -76,7 +76,7 @@ const Chats = () => {
     <div className="chats-page">
       <div className="nav-bar">
         <div className="logo-tab">
-          ChatSweep
+          <img src={`${process.env.PUBLIC_URL}/chatsweep_logo.png`} />
         </div>
         <div className="logout-tab" onClick={handleLogout}>
           Logout
