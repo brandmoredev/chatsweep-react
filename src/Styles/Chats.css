@@ -1,0 +1,37 @@
+.chats-page {
+  width: 100vw;
+  height: 100vh;
+}
+
+.nav-bar {
+  display: flex;
+  justify-content: space-between;
+  background-color: #1877f2;
+  padding: 16px;
+  color: white;
+}
+
+.logo-tab {
+  font-size: 22px;
+}
+
+.logout-tab {
+  color: rgba(255, 255, 255, 0.75);
+  cursor: pointer;
+}
+
+.logout-tab:hover {
+  color: white;
+}
+
+.loading-chat-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.chat-engine {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  sans-serif;
+}
